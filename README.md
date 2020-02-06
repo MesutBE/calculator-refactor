@@ -6,7 +6,7 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Development Strategy](#development-strategy)
-* [Screen Capture of Project](#screen-capture)
+* [Screen Capture of Project](#screen-capture-of-project)
 * [Project Status](#project-status)
 * [Useful Links](#useful-links)
 * [Contact](#contact)
@@ -80,7 +80,7 @@ Wireframe: https://wireframe.cc/NhsRQ8
 
 ## Screen Capture of Project
 
-
+![Screenshot from 2020-02-07 00-06-42](https://user-images.githubusercontent.com/59531743/73986699-8f590f80-493e-11ea-8b97-5fd5a0b42c0e.png)
 
 ## Project Status
 Project finished
