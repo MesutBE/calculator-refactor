@@ -1,4 +1,95 @@
-> * Follow [this tutorial from `mmtuts`](https://www.youtube.com/watch?v=qQEYAOPWDzk) and refactor your finished code into the files of this repository.  Be sure to organize your development process using Git Branches
-> * To learn more about how to organize your code & how to write development-strategies for this project, you can study the [using-user-input exercises](https://github.com/hackyourfuturebelgium/using-user-input)
-> * And of course, don't be limited by the tutorial!  It's just a starting point.  After making the base project work, follow your imagination
-> * Branching: for this project you should organize your branches basesd on _concern_ instead of user story.  If you look in the `development-strategy` template file you will find that there are a series of tables, the code for each table should be developed on it's own branch.  You can also find information on what the branches should be called in the students/module overview app for your class, and the assignment in the week's README
+
+# Project DuckDuckGo
+
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Development Strategy](#development-strategy)
+* [Project Status](#project-status)
+* [Useful Links](#useful-links)
+* [Contact](#contact)
+* [Live Project](https://mesutbe.github.io/duck-duck-clone/)
+
+## General info
+
+This Project is created by following [this tutorial from `mmtuts`](https://www.youtube.com/watch?v=qQEYAOPWDzk) and refactoring it finished code into the files of this repository.  The development process organized using Git Branches
+	
+## Technologies
+
+Project is created with:
+* HTML5 /CSS3
+* JScript
+
+## Setup
+Clone this repository and start using it with your editor.
+
+## Development Strategy
+
+# Project: calculator-refactor
+
+user story:
+a user can add/multiply/subtract/divide two numbers
+
+Wireframe: https://wireframe.cc/NhsRQ8
+
+## DOM
+
+| tag name | attributes | role |
+| --- | --- | --- |
+| __`<form>`__ | `value1`, `value2`, `operator` | enable user to set 2 numbers and select an operator |
+| __`<select>`__ | `Add`, `Minus`, `Divide`, `Multiply` | 4 options for calculating operators |
+| __`<button>`__ | click | to make calculation |
+| __`<div>`__ | result value | showing results to user |
+
+## Styling
+
+| class name | description | role |
+| --- | --- | --- |
+| body | whole body of the page | --- |
+| .calculator-form | form elements of the calc. | --- |
+| input | user input boxes | --- |
+| select | selection box | --- |
+| button | button for calculate | --- |
+| span | text styling | --- |
+| #btnCalc | for text font | --- |
+| .calculator-form:hover | for hover action  | --- |
+| | | |
+
+## Listeners
+
+| type | attached to | callback |
+| --- | --- | --- |
+| `click` | `id='btnCalc'` | `listener` |
+| | | |
+
+## Handlers
+
+| syntax | parameters | return value | behavior |
+| --- | --- | --- | --- |
+| calculateHandler(a, b, op) | operator and 2 values | --- | --- |
+| | | | |
+
+## Logic
+
+| syntax | parameters | return value | behavior |
+| --- | --- | --- | --- |
+| `doMath(op, a, b)` | operator and 2 values | returns the result | calculating result and tests |
+| | | | |
+
+
+## Project Status
+Project finished
+
+## Useful Links
+https://learnjavascript.online/app.html
+
+https://wireframe.cc/
+
+## Contact
+
+You can contact me using [my repository](https://mesutbe.github.io/) whenever you want.
+
+
+
+
