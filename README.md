@@ -9,7 +9,7 @@
 * [Project Status](#project-status)
 * [Useful Links](#useful-links)
 * [Contact](#contact)
-* [Live Project](https://mesutbe.github.io/duck-duck-clone/)
+* [Live Project](https://mesutbe.github.io/calculator-refactor/)
 
 ## General info
 
@@ -26,14 +26,14 @@ Clone this repository and start using it with your editor.
 
 ## Development Strategy
 
-# Project: calculator-refactor
+### Project: calculator-refactor
 
 user story:
 a user can add/multiply/subtract/divide two numbers
 
 Wireframe: https://wireframe.cc/NhsRQ8
 
-## DOM
+#### DOM
 
 | tag name | attributes | role |
 | --- | --- | --- |
@@ -42,7 +42,7 @@ Wireframe: https://wireframe.cc/NhsRQ8
 | __`<button>`__ | click | to make calculation |
 | __`<div>`__ | result value | showing results to user |
 
-## Styling
+#### Styling
 
 | class name | description | role |
 | --- | --- | --- |
@@ -56,21 +56,21 @@ Wireframe: https://wireframe.cc/NhsRQ8
 | .calculator-form:hover | for hover action  | --- |
 | | | |
 
-## Listeners
+#### Listeners
 
 | type | attached to | callback |
 | --- | --- | --- |
 | `click` | `id='btnCalc'` | `listener` |
 | | | |
 
-## Handlers
+#### Handlers
 
 | syntax | parameters | return value | behavior |
 | --- | --- | --- | --- |
 | calculateHandler(a, b, op) | operator and 2 values | --- | --- |
 | | | | |
 
-## Logic
+#### Logic
 
 | syntax | parameters | return value | behavior |
 | --- | --- | --- | --- |
