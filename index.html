@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <form>
+  <form class="calculator-form">
     Value 1: <input type="text" id="value1">
     Value 2: <input type="text" id="value2">
     Operator: 
@@ -26,11 +26,9 @@
       <option value="div">Divide</option>
       <option value="mul">Multiply</option>
     </select>
-    <button type="button" id="btnCalc">Calculate</button>
+    <button type="button" id="btnCalc">Calcula<span>+</span>e</button>
+    <div id="result"></div>
   </form>
-
-  <div id="result"></div>
-
 </body>
 <script src="./scripts/listener.js"></script>
 <script src="./scripts/handler.js"></script>
