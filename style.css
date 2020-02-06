@@ -1,6 +1,7 @@
 body{
     display: flex;
-    flex-direction:coloumn;
+    flex-direction:row;
+    clear: both;
     align-items: center;
     justify-content: center;
     justify-items: center;
