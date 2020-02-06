@@ -17,14 +17,20 @@ const doMathTests = [
   { name: 'invalid - 2', args: ['book', 0, 0], expected: 'invalid operation' },
   { name: 'invalid - 3', args: ['minus', 0, 0], expected: 'invalid operation' },
   // write 7 more test cases for doMath
-
+  { name: 'add - 4', args: ['add', 1, 1], expected: 2 },
+  { name: 'add - 5', args: ['add', 7, -3], expected: 4 },
+  { name: 'min - 4', args: ['min', 4, 5], expected: -1 },
+  { name: 'min - 5', args: ['min', 4, 4], expected: 0 },
+  { name: 'div - 4', args: ['div', 7, 7], expected: 1 },
+  { name: 'div - 5', args: ['div', 18, 2], expected: 9 },
+  { name: 'mul - 4', args: ['mul', 5, 5], expected: 25 },
 ];
 
 // refactor the logic from the calculator tutorial into this function
-function doMath(operation, a, b) {
+function doMath(op, a, b) {
   // these if statements make sure all arguments are the correct type
   // they will throw errors if your handler passes the wrong type arguments
-  if (typeof operation !== 'string') {
+  if (typeof op !== 'string') {
     throw new Error('operation should be a string');
   }
   if (typeof a !== 'number') {
@@ -34,8 +40,19 @@ function doMath(operation, a, b) {
     throw new Error('b should be a number');
   }
   // write your code below this comment:
+  var calculate;
 
-
+  if (op == 'add'){
+    calculate = a + b;
+  } else if (op == 'min'){
+    calculate = a - b;
+  } else if (op == 'div'){
+    calculate = a / b;
+  } else if (op == 'mul'){
+    calculate = a * b;
+  }
+  console.log(calculate);
+  return calculate;
 
 }
 
