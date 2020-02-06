@@ -38,13 +38,13 @@ wireframe
 ## Handlers
 
 | syntax | parameters | return value | behavior |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | calculateHandler(a, b, op) | operator and 2 values | --- | --- |
 | | | | |
 
 ## Logic
 
 | syntax | parameters | return value | behavior |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | `doMath(op, a, b)` | operator and 2 values | returns the result | calculating result and tests |
 | | | | |
