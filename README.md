@@ -6,6 +6,7 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Development Strategy](#development-strategy)
+* [Screen Capture of Project](#screen-capture)
 * [Project Status](#project-status)
 * [Useful Links](#useful-links)
 * [Contact](#contact)
@@ -76,6 +77,9 @@ Wireframe: https://wireframe.cc/NhsRQ8
 | --- | --- | --- | --- |
 | `doMath(op, a, b)` | operator and 2 values | returns the result | calculating result and tests |
 | | | | |
+
+## Screen Capture of Project
+
 
 
 ## Project Status
