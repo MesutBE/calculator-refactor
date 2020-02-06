@@ -3,7 +3,7 @@
 user story:
 a user can add/multiply/subtract/divide two numbers
 
-wireframe
+Wireframe: https://wireframe.cc/NhsRQ8
 
 ## DOM
 
