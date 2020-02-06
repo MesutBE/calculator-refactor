@@ -6,9 +6,12 @@ function calculateHandler(a, b, op) {
   op = op.toString();
 
   // pass user input through core logic
+
   var calculate;
   calculate = doMath(op, a, b);
 
+  const result = doMath(op, x, y); // leave this line!
+  
   // render output to DOM for user
   document.querySelector('#result').innerHTML = calculate;
 
