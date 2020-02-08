@@ -1,37 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator Refactor</title>
+    <link rel="stylesheet" href="style.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Calculator Refactor</title>
-  <link rel="stylesheet" href="style.css">
-    
-  <!-- this script is to help evaluate your deployed project -->
-  <script src='./dependencies/evaluation.js'></script>
-  <!-- this is the testing function for your logic -->
-  <script src='./dependencies/testing.js'></script>
-</head>
+    <!-- this script is to help evaluate your deployed project -->
+    <script src="./dependencies/evaluation.js"></script>
+    <!-- this is the testing function for your logic -->
+    <script src="./dependencies/testing.js"></script>
+  </head>
 
-<body>
-
-  <form class="calculator-form">
-    Value 1: <input type="text" id="value1">
-    Value 2: <input type="text" id="value2">
-    Operator: 
-    <select id="operator">
-      <option value="add">Add</option>
-      <option value="min">Minus</option>
-      <option value="div">Divide</option>
-      <option value="mul">Multiply</option>
-    </select>
-    <button type="button" id="btnCalc">Calcula<span>+</span>e</button>
-    <div id="result"></div>
-  </form>
-<script src="./scripts/listener.js"></script>
-<script src="./scripts/handler.js"></script>
-<script src="./scripts/logic.js"></script>
-</body>
+  <body>
+    <form class="calculator-form">
+      Value 1: <input type="text" id="value1" /> Value 2:
+      <input type="text" id="value2" />
+      Operator:
+      <select id="operator">
+        <option value="add">Add</option>
+        <option value="min">Minus</option>
+        <option value="div">Divide</option>
+        <option value="mul">Multiply</option>
+      </select>
+      <button type="button" id="btnCalc">Calcula<span>+</span>e</button>
+      <div id="result"></div>
+    </form>
+    <script src="./scripts/handler.js"></script>
+    <script src="./scripts/logic.js"></script>
+    <script src="./scripts/listener.js"></script>
+  </body>
 </html>
-

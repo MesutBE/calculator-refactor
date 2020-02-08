@@ -51,9 +51,7 @@ function doMath(op, a, b) {
   } else if (op == 'mul'){
     calculate = a * b;
   }
-  console.log(calculate);
   return calculate;
-
 }
 
 

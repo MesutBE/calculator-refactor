@@ -1,12 +1,11 @@
-function calculateHandler(a, b, op) {
-
+function calculateHandler(event) {
   // read & process user input from event
-  a = parseInt(a);
-  b = parseInt(b);
-  op = op.toString();
-
+  let op = document.querySelector('#operator').value;
+  let a = parseInt(document.querySelector('#value1').value);
+  let b = parseInt(document.querySelector('#value2').value);
+  
   // pass user input through core logic
-  var calculate;
+  let calculate;
   calculate = doMath(op, a, b);
 
   // render output to DOM for user
